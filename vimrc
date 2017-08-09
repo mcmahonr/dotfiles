@@ -33,10 +33,10 @@ nmap <Leader>n :bn<cr>
 nmap <Leader>p :bp<cr>
 nmap <Leader>d :bd<cr>
 
+"----------VDebug-------------------"
 let g:vdebug_options = {}
 let g:vdebug_options['port'] = 9003
 
-"------------Airline--------------"
 
 "---------Split Management----------"
 set splitbelow
@@ -92,7 +92,7 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
 "---------Auto-Commands------------"
 
-"Automaticallu source the Vimrc filr on save"
+"Automatically source the vimrc file on save"
 augroup autosourcing
 	autocmd!
 	autocmd BufWritePost .vimrc source %

@@ -126,7 +126,7 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
 Plugin 'google/vim-colorscheme-primary'
-Plugin 'vim-flake8'
+Plugin 'nvie/vim-flake8'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

@@ -120,16 +120,13 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'joonty/vdebug'
 Plugin 'rking/ag.vim'
 Plugin 'skwp/greplace.vim'
-Plugin 'SirVer/ultisnips'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'ervandew/supertab'
-Plugin 'sniphpets/sniphpets'
-Plugin 'sniphpets/sniphpets-common'
 Plugin 'bling/vim-airline'
 Plugin 'google/vim-colorscheme-primary'
+Plugin 'vim-flake8'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
